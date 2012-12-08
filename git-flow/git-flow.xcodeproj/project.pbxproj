@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		092196541673341000B8BAF6 /* TBXML.m in Sources */ = {isa = PBXBuildFile; fileRef = 092196531673341000B8BAF6 /* TBXML.m */; };
+		092196591673341C00B8BAF6 /* XmlViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 092196571673341C00B8BAF6 /* XmlViewController.m */; };
+		0921965A1673341C00B8BAF6 /* XmlViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 092196581673341C00B8BAF6 /* XmlViewController.xib */; };
 		DCD582A41673183800CF5BD1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCD582A31673183800CF5BD1 /* UIKit.framework */; };
 		DCD582A61673183800CF5BD1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCD582A51673183800CF5BD1 /* Foundation.framework */; };
 		DCD582A81673183800CF5BD1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCD582A71673183800CF5BD1 /* CoreGraphics.framework */; };
@@ -22,6 +25,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		092196521673341000B8BAF6 /* TBXML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBXML.h; sourceTree = "<group>"; };
+		092196531673341000B8BAF6 /* TBXML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBXML.m; sourceTree = "<group>"; };
+		092196561673341C00B8BAF6 /* XmlViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XmlViewController.h; sourceTree = "<group>"; };
+		092196571673341C00B8BAF6 /* XmlViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XmlViewController.m; sourceTree = "<group>"; };
+		092196581673341C00B8BAF6 /* XmlViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XmlViewController.xib; sourceTree = "<group>"; };
 		DCD5829F1673183800CF5BD1 /* git-flow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "git-flow.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCD582A31673183800CF5BD1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		DCD582A51673183800CF5BD1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -91,6 +99,11 @@
 				DCD582C716731AA000CF5BD1 /* HomeViewController.h */,
 				DCD582C816731AA000CF5BD1 /* HomeViewController.m */,
 				DCD582C916731AA000CF5BD1 /* HomeViewController.xib */,
+				092196561673341C00B8BAF6 /* XmlViewController.h */,
+				092196571673341C00B8BAF6 /* XmlViewController.m */,
+				092196581673341C00B8BAF6 /* XmlViewController.xib */,
+				092196521673341000B8BAF6 /* TBXML.h */,
+				092196531673341000B8BAF6 /* TBXML.m */,
 				DCD582AA1673183800CF5BD1 /* Supporting Files */,
 			);
 			path = "git-flow";
@@ -167,6 +180,7 @@
 				DCD582BA1673183900CF5BD1 /* Default-568h@2x.png in Resources */,
 				DCD582C11673185500CF5BD1 /* MainWindow.xib in Resources */,
 				DCD582CB16731AA000CF5BD1 /* HomeViewController.xib in Resources */,
+				0921965A1673341C00B8BAF6 /* XmlViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -180,6 +194,8 @@
 				DCD582B01673183900CF5BD1 /* main.m in Sources */,
 				DCD582B41673183900CF5BD1 /* AppDelegate.m in Sources */,
 				DCD582CA16731AA000CF5BD1 /* HomeViewController.m in Sources */,
+				092196541673341000B8BAF6 /* TBXML.m in Sources */,
+				092196591673341C00B8BAF6 /* XmlViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,6 +304,7 @@
 				DCD582BF1673183900CF5BD1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

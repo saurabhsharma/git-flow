@@ -1,19 +1,18 @@
 //
-//  HomeViewController.m
+//  XmlViewController.m
 //  git-flow
 //
-//  Created by Saurabh Sharma on 12/8/12.
+//  Created by Saurabh on 08/12/12.
 //  Copyright (c) 2012 Saurabh Sharma. All rights reserved.
 //
 
-#import "HomeViewController.h"
 #import "XmlViewController.h"
-
-@interface HomeViewController ()
+#import "TBXML.h"
+@interface XmlViewController ()
 
 @end
 
-@implementation HomeViewController
+@implementation XmlViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -24,17 +23,21 @@
     return self;
 }
 
-- (IBAction)xmlBtnPressed:(id)sender {
-    
-    XmlViewController *xvc = [[XmlViewController alloc] init];
-    [self.navigationController pushViewController:xvc animated:YES];
-    
-}
-
 - (void)viewDidLoad
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+    
+    NSString *booksXml = [NSString stringWithFormat:@"%@/%@",[[NSBundle mainBundle] resourcePath],@"books.xml"];
+    
+    NSError *error;
+    
+    TBXML *tbxml = [TBXML newTBXMLWithXMLFile:booksXml error:&error];
+
+    TBXMLElement * rootXMLElement = tbxml.rootXMLElement;
+
+    
+    
 }
 
 - (void)didReceiveMemoryWarning
