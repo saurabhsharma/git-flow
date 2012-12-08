@@ -7,6 +7,7 @@
 //
 
 #import "HomeViewController.h"
+#import "XmlViewController.h"
 
 @interface HomeViewController ()
 
@@ -21,6 +22,13 @@
         // Custom initialization
     }
     return self;
+}
+
+- (IBAction)xmlBtnPressed:(id)sender {
+    
+    XmlViewController *xvc = [[XmlViewController alloc] init];
+    [self.navigationController pushViewController:xvc animated:YES];
+    
 }
 
 - (void)viewDidLoad
