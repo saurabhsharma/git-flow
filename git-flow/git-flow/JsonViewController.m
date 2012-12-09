@@ -1,18 +1,18 @@
 //
-//  HomeViewController.m
+//  JsonViewController.m
 //  git-flow
 //
-//  Created by Saurabh Sharma on 12/8/12.
+//  Created by Saurabh Sharma on 12/9/12.
 //  Copyright (c) 2012 Saurabh Sharma. All rights reserved.
 //
 
-#import "HomeViewController.h"
 #import "JsonViewController.h"
-@interface HomeViewController ()
+
+@interface JsonViewController ()
 
 @end
 
-@implementation HomeViewController
+@implementation JsonViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -28,15 +28,6 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
 }
-
-
--(IBAction)jsonBtnPressed:(id)sender{
-    
-    JsonViewController *jvc = [[JsonViewController alloc] init];
-    [self.navigationController pushViewController:jvc animated:YES];
-    
-}
-
 
 - (void)didReceiveMemoryWarning
 {

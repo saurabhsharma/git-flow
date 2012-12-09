@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DCBF555E167465FA00665D7A /* JsonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCBF555C167465FA00665D7A /* JsonViewController.m */; };
+		DCBF555F167465FA00665D7A /* JsonViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DCBF555D167465FA00665D7A /* JsonViewController.xib */; };
 		DCD582A41673183800CF5BD1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCD582A31673183800CF5BD1 /* UIKit.framework */; };
 		DCD582A61673183800CF5BD1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCD582A51673183800CF5BD1 /* Foundation.framework */; };
 		DCD582A81673183800CF5BD1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCD582A71673183800CF5BD1 /* CoreGraphics.framework */; };
@@ -22,6 +24,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DCBF555B167465FA00665D7A /* JsonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JsonViewController.h; sourceTree = "<group>"; };
+		DCBF555C167465FA00665D7A /* JsonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JsonViewController.m; sourceTree = "<group>"; };
+		DCBF555D167465FA00665D7A /* JsonViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JsonViewController.xib; sourceTree = "<group>"; };
 		DCD5829F1673183800CF5BD1 /* git-flow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "git-flow.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCD582A31673183800CF5BD1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		DCD582A51673183800CF5BD1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -91,6 +96,9 @@
 				DCD582C716731AA000CF5BD1 /* HomeViewController.h */,
 				DCD582C816731AA000CF5BD1 /* HomeViewController.m */,
 				DCD582C916731AA000CF5BD1 /* HomeViewController.xib */,
+				DCBF555B167465FA00665D7A /* JsonViewController.h */,
+				DCBF555C167465FA00665D7A /* JsonViewController.m */,
+				DCBF555D167465FA00665D7A /* JsonViewController.xib */,
 				DCD582AA1673183800CF5BD1 /* Supporting Files */,
 			);
 			path = "git-flow";
@@ -167,6 +175,7 @@
 				DCD582BA1673183900CF5BD1 /* Default-568h@2x.png in Resources */,
 				DCD582C11673185500CF5BD1 /* MainWindow.xib in Resources */,
 				DCD582CB16731AA000CF5BD1 /* HomeViewController.xib in Resources */,
+				DCBF555F167465FA00665D7A /* JsonViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -180,6 +189,7 @@
 				DCD582B01673183900CF5BD1 /* main.m in Sources */,
 				DCD582B41673183900CF5BD1 /* AppDelegate.m in Sources */,
 				DCD582CA16731AA000CF5BD1 /* HomeViewController.m in Sources */,
+				DCBF555E167465FA00665D7A /* JsonViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,6 +298,7 @@
 				DCD582BF1673183900CF5BD1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
